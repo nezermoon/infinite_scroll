@@ -1,0 +1,20 @@
+.list-wrapper {
+	display: flex;
+	gap: 5px;
+	border: 1px solid #02127d;
+	padding: 20px;
+	border-radius: 15px;
+	animation: slidein 1s;
+}
+
+@keyframes slidein {
+	from {
+		transform: translateX(100px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
